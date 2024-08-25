@@ -23,4 +23,40 @@ public class ItemInitialization {
                             .build())
                     .rarity(Rarity.RARE)
             ));
+
+    //ingots
+
+    public static final RegistryObject<Item> ingot_electrum = ITEMS.register("ingot_electrum",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+                    .rarity(Rarity.RARE)
+            ));
+
+    public static final RegistryObject<Item> ingot_invar = ITEMS.register("ingot_invar",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+                    .rarity(Rarity.RARE)
+            ));
+
+    public static final RegistryObject<Item> ingot_nickel = ITEMS.register("ingot_nickel",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+                    .rarity(Rarity.RARE)
+            ));
+
+    public static final RegistryObject<Item> ingot_red_silverium = ITEMS.register("ingot_red_silverium",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+                    .rarity(Rarity.RARE)
+            ));
+
+    public static final RegistryObject<Item> ingot_silver = ITEMS.register("ingot_silver",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+                    .rarity(Rarity.RARE)
+            ));
+
+    //nuggets
+
+
 }

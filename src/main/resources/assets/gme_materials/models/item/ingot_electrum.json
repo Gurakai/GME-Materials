@@ -1,5 +1,5 @@
 {
-  "Parent": "minecraft:item/generated",
+  "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "gme_materials:item/ingot_electrum"
   }
