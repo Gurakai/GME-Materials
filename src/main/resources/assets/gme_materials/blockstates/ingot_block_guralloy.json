@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gme_material:block/ingot_block_guralloy"
+    }
+  }
+}
