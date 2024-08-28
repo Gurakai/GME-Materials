@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gme_materials:block/ingot_block_nickel"
+    }
+  }
+}

@@ -97,4 +97,31 @@ public class ItemInitialization {
                             .stacksTo(64)
                             .rarity(Rarity.RARE)
             ));
+
+    public static final RegistryObject<Item> ingot_block_invar = ITEMS.register("ingot_block_invar",
+            () -> new BlockItem(BlockInitialization.ingot_block_invar.get(),
+                    new Item.Properties()
+                            .stacksTo(64)
+                            .rarity(Rarity.UNCOMMON)
+            ));
+
+    public static final RegistryObject<Item> ingot_block_nickel = ITEMS.register("ingot_block_nickel",
+            () -> new BlockItem(BlockInitialization.ingot_block_nickel.get(),
+                    new Item.Properties()
+                            .stacksTo(64)
+                            .rarity(Rarity.RARE)
+            ));
+
+    public static final RegistryObject<Item> ingot_block_red_silvarium = ITEMS.register("ingot_block_red_silvarium",
+            () -> new BlockItem(BlockInitialization.ingot_block_red_silvarium.get(),
+                    new Item.Properties()
+                            .stacksTo(64)
+                            .rarity(Rarity.RARE)
+            ));
+    public static final RegistryObject<Item> ingot_block_silver = ITEMS.register("ingot_block_silver",
+            () -> new BlockItem(BlockInitialization.ingot_block_silver.get(),
+                    new Item.Properties()
+                            .stacksTo(64)
+                            .rarity(Rarity.RARE)
+            ));
 }

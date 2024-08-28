@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "gme_materials:block/ingot_block_silver"
+  }
+}

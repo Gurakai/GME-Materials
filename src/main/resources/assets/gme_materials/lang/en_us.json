@@ -10,5 +10,9 @@
   "item.gme_materials.nugget_nickel": "Nickel Nugget",
   "item.gme_materials.nugget_silver": "Silver Nugget",
   "item.gme_materials.nugget_red_silvarium": "Red Silvarium Nugget",
-  "block.gme_materials.ingot_block_guralloy": "Block of Guralloy"
+  "block.gme_materials.ingot_block_guralloy": "Block of Guralloy",
+  "block.gme_materials.ingot_block_invar": "Block of Invar",
+  "block.gme_materials.ingot_block_nickel": "Block of Nickel",
+  "block.gme_materials.ingot_block_red_silvarium": "Block of Red Silvarium",
+  "block.gme_materials.ingot_block_silver": "Block of silver"
 }
