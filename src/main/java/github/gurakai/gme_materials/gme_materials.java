@@ -1,6 +1,7 @@
 package github.gurakai.gme_materials;
 
 import github.gurakai.gme_materials.initilization.BlockInitialization;
+import github.gurakai.gme_materials.initilization.CreativeTabInitialization;
 import github.gurakai.gme_materials.initilization.ItemInitialization;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -15,5 +16,6 @@ public class gme_materials {
 
         ItemInitialization.ITEMS.register(bus);
         BlockInitialization.BLOCKS.register(bus);
+        CreativeTabInitialization.TABS.register(bus);
     }
 }
