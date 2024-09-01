@@ -1,12 +1,12 @@
 package github.gurakai.gme_materials.initilization;
 
 import github.gurakai.gme_materials.gme_materials;
+import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.*;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -161,4 +161,81 @@ public class ItemInitialization {
                     .stacksTo(64)
                     .rarity(Rarity.COMMON)
             )));
+
+    //weapons
+
+    public static final RegistryObject<SwordItem> sword_guralloy = addToTab(ITEMS.register("sword_guralloy",
+            () -> new SwordItem(
+                    TierInitialization.guralloy,
+                    7,
+                    1.6f,
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<SwordItem> sword_the_rarest = addToTab(ITEMS.register("sword_the_rarest",
+            () -> new SwordItem(
+                    TierInitialization.guralloy,
+                    7,
+                    1.6f,
+                    new Item.Properties()
+                            .food(new FoodProperties.Builder()
+                                    .alwaysEat()
+                                    .effect(() -> new MobEffectInstance(MobEffects.SATURATION, 4, 1),1f)
+                                    .build())
+                            .rarity(Rarity.EPIC)
+                            .durability(250)
+                            .setNoRepair()
+            )));
+
+    //tools
+
+    public static final RegistryObject<PickaxeItem> pickaxe_guralloy = addToTab(ITEMS.register("pickaxe_guralloy",
+            () -> new PickaxeItem(
+                    TierInitialization.guralloy,
+                    7,
+                    1.6f,
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<AxeItem> axe_guralloy = addToTab(ITEMS.register("axe_guralloy",
+            () -> new AxeItem(
+                    TierInitialization.guralloy,
+                    7,
+                    1.6f,
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<ShovelItem> shovel_guralloy = addToTab(ITEMS.register("shovel_guralloy",
+            () -> new ShovelItem(
+                    TierInitialization.guralloy,
+                    7,
+                    1.6f,
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<HoeItem> hoe_guralloy = addToTab(ITEMS.register("hoe_guralloy",
+            () -> new HoeItem(
+                    TierInitialization.guralloy,
+                    7,
+                    1.6f,
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<FlintAndSteelItem> primitive_flint_striker = addToTab(ITEMS.register("primitive_flint_striker",
+            () -> new FlintAndSteelItem(new Item.Properties()
+                    .stacksTo(8)
+                    .durability(1)
+            )));
+
+    public static final RegistryObject<FlintAndSteelItem> flint_and_steel = addToTab(ITEMS.register("flint_and_steel",
+            () -> new FlintAndSteelItem(new Item.Properties()
+                    .stacksTo(1)
+                    .durability(640)
+            )));
+
+    //armor
+
+    public static final RegistryObject<ArmorItem> helmet_guralloy = addToTab(ITEMS.register("helmet_guralloy",
+            () -> new ArmorItem(new ArmorItem()
+            })))
 }
