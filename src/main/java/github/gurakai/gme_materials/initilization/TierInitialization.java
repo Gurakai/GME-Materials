@@ -6,10 +6,10 @@ import net.minecraftforge.common.ForgeTier;
 public class TierInitialization {
     public static final ForgeTier guralloy = new ForgeTier(
             5,
-            2500,
+            3000,
             1.6f,
             4,
-            25,
+            30,
             TagInitialization.NEEDS_GURALLOY_TOOL,
             () -> Ingredient.of(ItemInitialization.ingot_guralloy.get())
     );

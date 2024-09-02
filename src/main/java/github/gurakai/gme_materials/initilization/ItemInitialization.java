@@ -7,6 +7,7 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -28,6 +29,22 @@ public class ItemInitialization {
                             .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 2400, 3), 1f)
                             .build())
                     .rarity(Rarity.RARE)
+            )));
+
+    //foodblocks
+
+    public static final RegistryObject<BlockItem> block_the_rarest_steak = addToTab(ITEMS.register("block_the_rarest_steak",
+            () -> new BlockItem(BlockInitialization.block_the_rarest_steak.get(),
+                    new Item.Properties()
+                            .stacksTo(64)
+                            .rarity(Rarity.RARE)
+                            .food(new FoodProperties.Builder()
+                                    .nutrition(20)
+                                    .saturationMod(10f)
+                                    .meat()
+                                    .effect(() -> new MobEffectInstance(MobEffects.CONFUSION,200, 0),0.4f)
+                                    .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 100,2),0.1f)
+                                    .build())
             )));
 
     //ingots
@@ -175,15 +192,17 @@ public class ItemInitialization {
     public static final RegistryObject<SwordItem> sword_the_rarest = addToTab(ITEMS.register("sword_the_rarest",
             () -> new SwordItem(
                     TierInitialization.guralloy,
-                    7,
-                    1.6f,
+                    1,
+                    0.8f,
                     new Item.Properties()
                             .food(new FoodProperties.Builder()
                                     .alwaysEat()
-                                    .effect(() -> new MobEffectInstance(MobEffects.SATURATION, 4, 1),1f)
+                                    .effect(() -> new MobEffectInstance(MobEffects.SATURATION, 300, 0),1f)
+                                    .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 40, 3),1f)
+                                    .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 1200, 1), 1f)
                                     .build())
                             .rarity(Rarity.EPIC)
-                            .durability(250)
+                            .durability(25)
                             .setNoRepair()
             )));
 
@@ -223,11 +242,11 @@ public class ItemInitialization {
 
     public static final RegistryObject<FlintAndSteelItem> primitive_flint_striker = addToTab(ITEMS.register("primitive_flint_striker",
             () -> new FlintAndSteelItem(new Item.Properties()
-                    .stacksTo(8)
+                    .stacksTo(1)
                     .durability(1)
             )));
 
-    public static final RegistryObject<FlintAndSteelItem> flint_and_steel = addToTab(ITEMS.register("flint_and_steel",
+    public static final RegistryObject<FlintAndSteelItem> advanced_flint_striker = addToTab(ITEMS.register("advanced_flint_striker",
             () -> new FlintAndSteelItem(new Item.Properties()
                     .stacksTo(1)
                     .durability(640)
@@ -236,6 +255,30 @@ public class ItemInitialization {
     //armor
 
     public static final RegistryObject<ArmorItem> helmet_guralloy = addToTab(ITEMS.register("helmet_guralloy",
-            () -> new ArmorItem(new ArmorItem()
-            })))
+            () -> new ArmorItem(
+                    ArmorMaterialInitialization.guralloy,
+                    ArmorItem.Type.HELMET,
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<ArmorItem> chestplate_guralloy = addToTab(ITEMS.register("chestplate_guralloy",
+            () -> new ArmorItem(
+                    ArmorMaterialInitialization.guralloy,
+                    ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<ArmorItem> leggings_guralloy = addToTab(ITEMS.register("leggings_guralloy",
+            () -> new ArmorItem(
+                    ArmorMaterialInitialization.guralloy,
+                    ArmorItem.Type.LEGGINGS,
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<ArmorItem> boots_guralloy = addToTab(ITEMS.register("boots_guralloy",
+            () -> new ArmorItem(
+                    ArmorMaterialInitialization.guralloy,
+                    ArmorItem.Type.BOOTS,
+                    new Item.Properties()
+            )));
 }

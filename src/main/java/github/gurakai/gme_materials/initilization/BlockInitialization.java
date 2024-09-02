@@ -58,4 +58,12 @@ public class BlockInitialization {
                     .requiresCorrectToolForDrops()
                     .pushReaction(PushReaction.NORMAL)
             ));
+
+    public static final RegistryObject<Block> block_the_rarest_steak = BLOCKS.register("block_the_rarest_steak",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_RED)
+                    .strength(1f)
+                    .instrument(NoteBlockInstrument.BASS)
+                    .pushReaction(PushReaction.DESTROY)
+            ));
 }

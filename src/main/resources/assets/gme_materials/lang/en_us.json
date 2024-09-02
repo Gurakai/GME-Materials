@@ -24,6 +24,20 @@
   "block.gme_materials.ingot_block_nickel": "Block of Nickel",
   "block.gme_materials.ingot_block_red_silvarium": "Block of Red Silvarium",
   "block.gme_materials.ingot_block_silver": "Block of silver",
+  "block.gme_materials.block_the_rarest_steak": "The Rarest Steak Block",
+
+  "item.gme_materials.sword_guralloy": "Guralloy Sword",
+  "item.gme_materials.pickaxe_guralloy": "Guralloy Pickaxe",
+  "item.gme_materials.axe_guralloy": "Guralloy Axe",
+  "item.gme_materials.hoe_guralloy": "Guralloy Hoe",
+  "item.gme_materials.shovel_guralloy": "Guralloy Shovel",
+  "item.gme_materials.helmet_guralloy": "Guralloy Helmet",
+  "item.gme_materials.chestplate_guralloy": "Guralloy Chestplate",
+  "item.gme_materials.leggings_guralloy": "Guralloy Leggings",
+  "item.gme_materials.boots_guralloy": "Guralloy Boots",
+  "item.gme_materials.sword_the_rarest": "The Rarest Sword",
+  "item.gme_materials.primitive_flint_striker": "Primitive Flint Striker",
+  "item.gme_materials.advanced_flint_striker": "Advanced Flint Striker",
 
   "itemGroup.gme_materials_creativetab": "GME: Materials"
 }
