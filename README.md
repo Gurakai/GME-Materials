@@ -3,7 +3,7 @@ A Mod designed to be used specifically for the GME Modpack, but can be used for 
 
 FEATURES
 
-Adds new metal and metal alloys such as red silverium, and Guralloy.
+Adds new metal and metal alloys such as Red Silvarium, and Guralloy.
 
 Adds Higher tier compressed blocks for iron and other materials.
 
