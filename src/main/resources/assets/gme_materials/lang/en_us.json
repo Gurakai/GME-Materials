@@ -36,8 +36,8 @@
   "item.gme_materials.leggings_guralloy": "Guralloy Leggings",
   "item.gme_materials.boots_guralloy": "Guralloy Boots",
   "item.gme_materials.sword_the_rarest": "The Rarest Sword",
-  "item.gme_materials.primitive_flint_striker": "Primitive Flint Striker",
-  "item.gme_materials.advanced_flint_striker": "Advanced Flint Striker",
+  "item.gme_materials.primitive_fire_starter": "Primitive Fire Starter",
+  "item.gme_materials.advanced_fire_starter": "Advanced Fire Starter",
 
   "itemGroup.gme_materials_creativetab": "GME: Materials"
 }

@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "gme_materials:item/block_the_rarest_steak"
-  }
+  "parent": "gme_materials:block/block_the_rarest_steak"
 }

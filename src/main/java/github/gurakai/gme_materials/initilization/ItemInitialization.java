@@ -184,16 +184,16 @@ public class ItemInitialization {
     public static final RegistryObject<SwordItem> sword_guralloy = addToTab(ITEMS.register("sword_guralloy",
             () -> new SwordItem(
                     TierInitialization.guralloy,
-                    7,
-                    1.6f,
+                    3,
+                    -2.4f,
                     new Item.Properties()
             )));
 
     public static final RegistryObject<SwordItem> sword_the_rarest = addToTab(ITEMS.register("sword_the_rarest",
             () -> new SwordItem(
                     TierInitialization.guralloy,
-                    1,
-                    0.8f,
+                    -4,
+                    0.1f,
                     new Item.Properties()
                             .food(new FoodProperties.Builder()
                                     .alwaysEat()
@@ -202,7 +202,7 @@ public class ItemInitialization {
                                     .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 1200, 1), 1f)
                                     .build())
                             .rarity(Rarity.EPIC)
-                            .durability(25)
+                            .durability(15)
                             .setNoRepair()
             )));
 
@@ -211,45 +211,45 @@ public class ItemInitialization {
     public static final RegistryObject<PickaxeItem> pickaxe_guralloy = addToTab(ITEMS.register("pickaxe_guralloy",
             () -> new PickaxeItem(
                     TierInitialization.guralloy,
-                    7,
-                    1.6f,
+                    1,
+                    -2.8f,
                     new Item.Properties()
             )));
 
     public static final RegistryObject<AxeItem> axe_guralloy = addToTab(ITEMS.register("axe_guralloy",
             () -> new AxeItem(
                     TierInitialization.guralloy,
-                    7,
-                    1.6f,
+                    5,
+                    -3.0f,
                     new Item.Properties()
             )));
 
     public static final RegistryObject<ShovelItem> shovel_guralloy = addToTab(ITEMS.register("shovel_guralloy",
             () -> new ShovelItem(
                     TierInitialization.guralloy,
-                    7,
-                    1.6f,
+                    1.5f,
+                    -3.0f,
                     new Item.Properties()
             )));
 
     public static final RegistryObject<HoeItem> hoe_guralloy = addToTab(ITEMS.register("hoe_guralloy",
             () -> new HoeItem(
                     TierInitialization.guralloy,
-                    7,
-                    1.6f,
+                    -4,
+                    0.0f,
                     new Item.Properties()
             )));
 
-    public static final RegistryObject<FlintAndSteelItem> primitive_flint_striker = addToTab(ITEMS.register("primitive_flint_striker",
+    public static final RegistryObject<FlintAndSteelItem> primitive_fire_starter = addToTab(ITEMS.register("primitive_fire_starter",
             () -> new FlintAndSteelItem(new Item.Properties()
                     .stacksTo(1)
                     .durability(1)
             )));
 
-    public static final RegistryObject<FlintAndSteelItem> advanced_flint_striker = addToTab(ITEMS.register("advanced_flint_striker",
+    public static final RegistryObject<FlintAndSteelItem> advanced_fire_starter = addToTab(ITEMS.register("advanced_fire_starter",
             () -> new FlintAndSteelItem(new Item.Properties()
                     .stacksTo(1)
-                    .durability(640)
+                    .durability(2560)
             )));
 
     //armor

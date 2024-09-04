@@ -2,6 +2,7 @@ package github.gurakai.gme_materials.initilization;
 
 import github.gurakai.gme_materials.gme_materials;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
@@ -16,7 +17,7 @@ public class BlockInitialization {
     public static final RegistryObject<Block> ingot_block_guralloy = BLOCKS.register("ingot_block_guralloy",
             () -> new Block(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.COLOR_YELLOW)
-                    .strength(10f, 17f)
+                    .strength(75f, 1500f)
                     .instrument(NoteBlockInstrument.DIDGERIDOO)
                     .lightLevel(state -> 5)
                     .requiresCorrectToolForDrops()
@@ -44,7 +45,7 @@ public class BlockInitialization {
     public static final RegistryObject<Block> ingot_block_red_silvarium = BLOCKS.register("ingot_block_red_silvarium",
             () -> new Block(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.COLOR_GRAY)
-                    .strength(5f, 13f)
+                    .strength(6f, 13f)
                     .instrument(NoteBlockInstrument.CHIME)
                     .requiresCorrectToolForDrops()
                     .pushReaction(PushReaction.NORMAL)
@@ -60,9 +61,9 @@ public class BlockInitialization {
             ));
 
     public static final RegistryObject<Block> block_the_rarest_steak = BLOCKS.register("block_the_rarest_steak",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.HONEY_BLOCK)
                     .mapColor(MapColor.COLOR_RED)
-                    .strength(1f)
+                    .strength(0.1f)
                     .instrument(NoteBlockInstrument.BASS)
                     .pushReaction(PushReaction.DESTROY)
             ));

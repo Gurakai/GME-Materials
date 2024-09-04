@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "gme_materials:item/advanced_flint_striker"
+    "layer0": "gme_materials:item/primitive_fire_starter"
   }
 }
