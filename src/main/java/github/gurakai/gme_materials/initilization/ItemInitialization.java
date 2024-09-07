@@ -1,13 +1,10 @@
 package github.gurakai.gme_materials.initilization;
 
 import github.gurakai.gme_materials.gme_materials;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.level.block.Block;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -42,8 +39,8 @@ public class ItemInitialization {
                                     .nutrition(20)
                                     .saturationMod(10f)
                                     .meat()
-                                    .effect(() -> new MobEffectInstance(MobEffects.CONFUSION,200, 0),0.4f)
-                                    .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 100,2),0.1f)
+                                    .effect(() -> new MobEffectInstance(MobEffects.CONFUSION,200, 0),0.2f)
+                                    .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 100,2),0.05f)
                                     .build())
             )));
 
@@ -147,7 +144,7 @@ public class ItemInitialization {
                             .rarity(Rarity.RARE)
             )));
 
-    //powders
+    //powders - blends - amalgams
 
     public static final RegistryObject<Item> amalgam_guralloy = addToTab(ITEMS.register("amalgam_guralloy",
             () -> new Item(new Item.Properties()
@@ -185,7 +182,7 @@ public class ItemInitialization {
             () -> new SwordItem(
                     TierInitialization.guralloy,
                     3,
-                    -2.4f,
+                    -2.0f,
                     new Item.Properties()
             )));
 
@@ -193,7 +190,7 @@ public class ItemInitialization {
             () -> new SwordItem(
                     TierInitialization.guralloy,
                     -4,
-                    0.1f,
+                    -2.4f,
                     new Item.Properties()
                             .food(new FoodProperties.Builder()
                                     .alwaysEat()
@@ -212,7 +209,7 @@ public class ItemInitialization {
             () -> new PickaxeItem(
                     TierInitialization.guralloy,
                     1,
-                    -2.8f,
+                    -2.4f,
                     new Item.Properties()
             )));
 
@@ -220,7 +217,7 @@ public class ItemInitialization {
             () -> new AxeItem(
                     TierInitialization.guralloy,
                     5,
-                    -3.0f,
+                    -2.6f,
                     new Item.Properties()
             )));
 
@@ -228,7 +225,7 @@ public class ItemInitialization {
             () -> new ShovelItem(
                     TierInitialization.guralloy,
                     1.5f,
-                    -3.0f,
+                    -2.6f,
                     new Item.Properties()
             )));
 
@@ -236,7 +233,7 @@ public class ItemInitialization {
             () -> new HoeItem(
                     TierInitialization.guralloy,
                     -4,
-                    0.0f,
+                    0.4f,
                     new Item.Properties()
             )));
 
@@ -278,6 +275,34 @@ public class ItemInitialization {
     public static final RegistryObject<ArmorItem> boots_guralloy = addToTab(ITEMS.register("boots_guralloy",
             () -> new ArmorItem(
                     ArmorMaterialInitialization.guralloy,
+                    ArmorItem.Type.BOOTS,
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<ArmorItem> helmet_padded_leather = addToTab(ITEMS.register("helmet_padded_leather",
+            () -> new ArmorItem(
+                    ArmorMaterialInitialization.padded_leather,
+                    ArmorItem.Type.HELMET,
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<ArmorItem> chestplate_padded_leather = addToTab(ITEMS.register("chestplate_padded_leather",
+            () -> new ArmorItem(
+                    ArmorMaterialInitialization.padded_leather,
+                    ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<ArmorItem> leggings_padded_leather = addToTab(ITEMS.register("leggings_padded_leather",
+            () -> new ArmorItem(
+                    ArmorMaterialInitialization.padded_leather,
+                    ArmorItem.Type.LEGGINGS,
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<ArmorItem> boots_padded_leather = addToTab(ITEMS.register("boots_padded_leather",
+            () -> new ArmorItem(
+                    ArmorMaterialInitialization.padded_leather,
                     ArmorItem.Type.BOOTS,
                     new Item.Properties()
             )));
