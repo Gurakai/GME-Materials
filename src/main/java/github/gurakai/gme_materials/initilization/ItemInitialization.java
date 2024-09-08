@@ -306,4 +306,26 @@ public class ItemInitialization {
                     ArmorItem.Type.BOOTS,
                     new Item.Properties()
             )));
+
+    //ore blocks
+
+    public static final RegistryObject<BlockItem> ore_nickel = addToTab(ITEMS.register("ore_nickel",
+            () -> new BlockItem(BlockInitialization.ore_nickel.get(),
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<BlockItem> ore_silver = addToTab(ITEMS.register("ore_silver",
+            () -> new BlockItem(BlockInitialization.ore_silver.get(),
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<BlockItem> ore_deepslate_nickel = addToTab(ITEMS.register("ore_deepslate_nickel",
+            () -> new BlockItem(BlockInitialization.ore_deepslate_nickel.get(),
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<BlockItem> ore_deepslate_silver = addToTab(ITEMS.register("ore_deepslate_silver",
+            () -> new BlockItem(BlockInitialization.ore_deepslate_silver.get(),
+                    new Item.Properties()
+            )));
 }

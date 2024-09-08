@@ -1,8 +1,10 @@
 package github.gurakai.gme_materials.initilization;
 
 import github.gurakai.gme_materials.gme_materials;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
@@ -66,5 +68,25 @@ public class BlockInitialization {
                     .strength(0.1f)
                     .instrument(NoteBlockInstrument.BASS)
                     .pushReaction(PushReaction.DESTROY)
+            ));
+
+    //ores
+
+    public static final RegistryObject<DropExperienceBlock> ore_nickel = BLOCKS.register("ore_nickel",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE),
+                    UniformInt.of(0,2)
+            ));
+
+    public static final RegistryObject<DropExperienceBlock> ore_deepslate_nickel = BLOCKS.register("ore_deepslate_nickel",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE),
+                    UniformInt.of(1,3)
+            ));
+
+    public static final RegistryObject<Block> ore_silver = BLOCKS.register("ore_silver",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_ORE)
+            ));
+
+    public static final RegistryObject<Block> ore_deepslate_silver = BLOCKS.register("ore_deepslate_silver",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_GOLD_ORE)
             ));
 }
