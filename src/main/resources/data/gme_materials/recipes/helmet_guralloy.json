@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G G",
+    "GGG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "gme_materials:ingot_guralloy"
+    }
+  },
+  "result": {
+    "item": "gme_materials:helmet_guralloy"
+  }
+}

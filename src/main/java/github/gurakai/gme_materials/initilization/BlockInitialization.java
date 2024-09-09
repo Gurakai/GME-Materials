@@ -73,20 +73,26 @@ public class BlockInitialization {
     //ores
 
     public static final RegistryObject<DropExperienceBlock> ore_nickel = BLOCKS.register("ore_nickel",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE),
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
+                    .strength(3.0f),
                     UniformInt.of(0,2)
             ));
 
     public static final RegistryObject<DropExperienceBlock> ore_deepslate_nickel = BLOCKS.register("ore_deepslate_nickel",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE),
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE)
+                    .strength(4.5f,3.0f),
                     UniformInt.of(1,3)
             ));
 
-    public static final RegistryObject<Block> ore_silver = BLOCKS.register("ore_silver",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GOLD_ORE)
+    public static final RegistryObject<DropExperienceBlock> ore_silver = BLOCKS.register("ore_silver",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.GOLD_ORE)
+                    .strength(3.0f),
+                    UniformInt.of(0,2)
             ));
 
-    public static final RegistryObject<Block> ore_deepslate_silver = BLOCKS.register("ore_deepslate_silver",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_GOLD_ORE)
+    public static final RegistryObject<DropExperienceBlock> ore_deepslate_silver = BLOCKS.register("ore_deepslate_silver",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_GOLD_ORE)
+                    .strength(4.5f,3.0f),
+                    UniformInt.of(1,3)
             ));
 }

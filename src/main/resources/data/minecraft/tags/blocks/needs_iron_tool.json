@@ -3,6 +3,8 @@
   "values": [
     "gme_materials:ingot_block_invar",
     "gme_materials:ingot_block_nickel",
-    "gme_materials:ingot_block_silver"
+    "gme_materials:ingot_block_silver",
+    "gme_materials:ore_nickel",
+    "gme_materials:ore_silver"
   ]
 }

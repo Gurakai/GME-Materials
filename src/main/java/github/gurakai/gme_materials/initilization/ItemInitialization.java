@@ -76,6 +76,18 @@ public class ItemInitialization {
                     .rarity(Rarity.COMMON)
             )));
 
+    //raw ore
+
+    public static final  RegistryObject<Item> raw_nickel = addToTab(ITEMS.register("raw_nickel",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+            )));
+
+    public static final  RegistryObject<Item> raw_silver = addToTab(ITEMS.register("raw_silver",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+            )));
+
     //nuggets
 
     public static final RegistryObject<Item> nugget_guralloy = addToTab(ITEMS.register("nugget_guralloy",
@@ -239,13 +251,11 @@ public class ItemInitialization {
 
     public static final RegistryObject<FlintAndSteelItem> primitive_fire_starter = addToTab(ITEMS.register("primitive_fire_starter",
             () -> new FlintAndSteelItem(new Item.Properties()
-                    .stacksTo(1)
                     .durability(1)
             )));
 
     public static final RegistryObject<FlintAndSteelItem> advanced_fire_starter = addToTab(ITEMS.register("advanced_fire_starter",
             () -> new FlintAndSteelItem(new Item.Properties()
-                    .stacksTo(1)
                     .durability(2560)
             )));
 
