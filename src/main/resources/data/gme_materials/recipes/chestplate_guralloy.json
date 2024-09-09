@@ -1,8 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
+    "G G",
     "GGG",
-    "G G"
+    "GGG"
   ],
   "key": {
     "G": {
@@ -10,6 +11,6 @@
     }
   },
   "result": {
-    "item": "gme_materials:helmet_guralloy"
+    "item": "gme_materials:chestplate_guralloy"
   }
 }
