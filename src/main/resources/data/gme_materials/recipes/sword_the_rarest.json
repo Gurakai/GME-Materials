@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " B ",
+    " b "
+  ],
+  "key": {
+    "b": {
+      "item": "minecraft:bone"
+    },
+    "B": {
+      "item": "gme_materials:block_the_rarest_block"
+    }
+  },
+  "result": {
+    "item": "gme_materials:sword_the_rarest"
+  }
+}

@@ -7,6 +7,8 @@
     "gme_materials:ingot_block_red_silvarium",
     "gme_materials:ingot_block_silver",
     "gme_materials:ore_nickel",
-    "gme_materials:ore_silver"
+    "gme_materials:ore_silver",
+    "gme_materials:ore_deepslate_nickel",
+    "gme_materials:ore_deepslate_silver"
   ]
 }

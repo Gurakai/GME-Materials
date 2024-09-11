@@ -261,6 +261,11 @@ public class ItemInitialization {
 
     //armor
 
+    public static final RegistryObject<Item> wool_padding = addToTab(ITEMS.register("wool_padding",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+            )));
+
     public static final RegistryObject<ArmorItem> helmet_guralloy = addToTab(ITEMS.register("helmet_guralloy",
             () -> new ArmorItem(
                     ArmorMaterialInitialization.guralloy,

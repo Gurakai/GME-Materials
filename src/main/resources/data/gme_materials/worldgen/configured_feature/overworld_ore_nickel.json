@@ -10,7 +10,16 @@
           "tag": "minecraft:stone_ore_replaceables"
         },
         "state": {
-          "Name": "gme_materials:ore_silver"
+          "Name": "gme_materials:ore_nickel"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "minecraft:deepslate_ore_replaceables"
+        },
+        "state": {
+          "Name": "gme_materials:ore_deepslate_nickel"
         }
       }
     ]
