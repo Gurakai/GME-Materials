@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "gme_materials:guralloy_template"
+  },
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "addition": {
+    "item": "gme_materials:ingot_guralloy"
+  },
+  "result": {
+    "item": "gme_materials:pickaxe_guralloy"
+  }
+}

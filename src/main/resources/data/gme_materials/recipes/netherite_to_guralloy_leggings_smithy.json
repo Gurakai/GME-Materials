@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "gme_materials:guralloy_template"
+  },
+  "base": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "addition": {
+    "item": "gme_materials:ingot_block_guralloy"
+  },
+  "result": {
+    "item": "gme_materials:leggings_guralloy"
+  }
+}

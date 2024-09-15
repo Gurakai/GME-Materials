@@ -9,6 +9,7 @@
     "gme_materials:ore_nickel",
     "gme_materials:ore_silver",
     "gme_materials:ore_deepslate_nickel",
-    "gme_materials:ore_deepslate_silver"
+    "gme_materials:ore_deepslate_silver",
+    "gme_materials:compressed_cobblestone_singularity"
   ]
 }

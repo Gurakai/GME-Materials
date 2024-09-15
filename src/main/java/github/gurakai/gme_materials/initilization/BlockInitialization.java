@@ -95,4 +95,11 @@ public class BlockInitialization {
                     .strength(4.5f,3.0f),
                     UniformInt.of(1,3)
             ));
+
+//compressed blocks
+
+    public static final RegistryObject<Block> compressed_cobblestone_singularity = BLOCKS.register("compressed_cobblestone_singularity",
+            () -> new Block(BlockBehaviour.Properties.copy(ingot_block_guralloy.get()
+            )));
+
 }

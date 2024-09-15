@@ -32,6 +32,7 @@
   "block.gme_materials.ore_deepslate_nickel": "Deepslate Nickel Ore",
   "block.gme_materials.ore_silver": "Silver Ore",
   "block.gme_materials.ore_deepslate_silver": "Deepslate Silver Ore",
+  "block.gme_materials.compressed_cobblestone_singularity": "Compressed Cobblestone Singularity",
 
   "item.gme_materials.sword_guralloy": "Guralloy Sword",
   "item.gme_materials.pickaxe_guralloy": "Guralloy Pickaxe",
@@ -49,6 +50,8 @@
   "item.gme_materials.sword_the_rarest": "The Rarest Sword",
   "item.gme_materials.primitive_fire_starter": "Primitive Fire Starter",
   "item.gme_materials.advanced_fire_starter": "Advanced Fire Starter",
+  "item.gme_materials.wool_padding": "Wool Padding",
+  "item.gme_materials.guralloy_template": "Guralloy Upgrade Smithing Template",
 
   "itemGroup.gme_materials_creativetab": "GME: Materials"
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    "WLW",
+    " W "
+  ],
+  "key": {
+    "W": {
+      "item": "gme_materials:wool_padding"
+    },
+    "L": {
+      "item": "minecraft:leather_boots"
+    }
+  },
+  "result": {
+    "item": "gme_materials:padded_leather_boots"
+  }
+}

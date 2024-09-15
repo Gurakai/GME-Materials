@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "gme_materials:pulverized_nickel"
+  },
+  "result": "gme_materials:ingot_nickel",
+  "experience": 0.8,
+  "cookingtime": 100
+}

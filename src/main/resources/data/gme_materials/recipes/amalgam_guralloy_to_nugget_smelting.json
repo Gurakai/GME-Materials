@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "gme_materials:amalgam_guralloy"
+  },
+  "result": "gme_materials:nugget_guralloy",
+  "experience": 0.7,
+  "cookingtime": 200
+}

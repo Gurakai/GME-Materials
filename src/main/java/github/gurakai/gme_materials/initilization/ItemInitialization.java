@@ -261,6 +261,11 @@ public class ItemInitialization {
 
     //armor
 
+    public static final RegistryObject<Item> guralloy_template = addToTab(ITEMS.register("guralloy_template",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(1)
+            )));
+
     public static final RegistryObject<Item> wool_padding = addToTab(ITEMS.register("wool_padding",
             () -> new Item(new Item.Properties()
                     .stacksTo(64)
@@ -341,6 +346,13 @@ public class ItemInitialization {
 
     public static final RegistryObject<BlockItem> ore_deepslate_silver = addToTab(ITEMS.register("ore_deepslate_silver",
             () -> new BlockItem(BlockInitialization.ore_deepslate_silver.get(),
+                    new Item.Properties()
+            )));
+
+    //compressed blocks
+
+    public static final RegistryObject<BlockItem> compressed_cobblestone_singularity = addToTab(ITEMS.register("compressed_cobblestone_singularity",
+            () -> new BlockItem(BlockInitialization.compressed_cobblestone_singularity.get(),
                     new Item.Properties()
             )));
 }

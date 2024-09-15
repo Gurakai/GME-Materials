@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WAW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "gme_materials:nugget_guralloy"
+    },
+    "A": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "gme_materials:ingot_block_guralloy"
+  }
+}

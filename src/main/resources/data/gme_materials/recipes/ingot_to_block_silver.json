@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "gme_materials:ingot_silver"
+    }
+  },
+  "result": {
+    "item": "gme_materials:ingot_block_silver"
+  }
+}
