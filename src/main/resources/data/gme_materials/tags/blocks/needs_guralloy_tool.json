@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "gme_materials:ingot_block_guralloy",
-    "gme_materials:compressed_cobblestone_singularity"
+    "gme_materials:compressed_cobblestone_singularity",
+    "gme_materials:compressed_cobblestone_9",
+    "gme_materials:compressed_cobblestone_8",
+    "gme_materials:compressed_cobblestone_7"
   ]
 }

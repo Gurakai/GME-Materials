@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "gme_materials:item/pulverized_invar"
+    "layer0": "gme_materials:item/amalgam_invar"
   }
 }

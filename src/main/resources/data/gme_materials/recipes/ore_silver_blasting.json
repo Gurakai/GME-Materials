@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "tag": "gme_materials:ore_silver"
+    "item": "gme_materials:ore_silver"
   },
   "result": "gme_materials:ingot_silver",
   "experience": 0.8,

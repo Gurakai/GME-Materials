@@ -1,19 +1,17 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " W ",
-    "WLW",
-    " W "
-  ],
-  "key": {
-    "W": {
-      "item": "gme_materials:wool_padding"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
     },
-    "L": {
-      "item": "minecraft:leather_chestplate"
+    {
+      "tag": "minecraft:planks"
+    },
+    {
+      "item": "minecraft:bow"
     }
-  },
+  ],
   "result": {
-    "item": "gme_materials:padded_leather_chestplate"
+    "item": "gme_materials:primitive_fire_starter"
   }
 }

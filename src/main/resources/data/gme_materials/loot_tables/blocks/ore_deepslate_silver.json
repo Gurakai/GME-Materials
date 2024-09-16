@@ -29,7 +29,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "gme_materials:ingot_silver",
+              "name": "gme_materials:raw_silver",
               "functions": [
                 {
                   "function": "minecraft:apply_bonus",

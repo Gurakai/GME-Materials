@@ -1,10 +1,12 @@
 package github.gurakai.gme_materials.initilization;
 
 import github.gurakai.gme_materials.gme_materials;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
@@ -17,7 +19,7 @@ public class BlockInitialization {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, gme_materials.MODID);
 
     public static final RegistryObject<Block> ingot_block_guralloy = BLOCKS.register("ingot_block_guralloy",
-            () -> new Block(BlockBehaviour.Properties.of()
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)
                     .mapColor(MapColor.COLOR_YELLOW)
                     .strength(75f, 1500f)
                     .instrument(NoteBlockInstrument.DIDGERIDOO)
@@ -99,7 +101,44 @@ public class BlockInitialization {
 //compressed blocks
 
     public static final RegistryObject<Block> compressed_cobblestone_singularity = BLOCKS.register("compressed_cobblestone_singularity",
-            () -> new Block(BlockBehaviour.Properties.copy(ingot_block_guralloy.get()
-            )));
+            () -> new Block(BlockBehaviour.Properties.copy(ingot_block_guralloy.get())
+                    .strength(150f,3000f)
+            ));
+
+    public static final RegistryObject<Block> compressed_cobblestone_9 = BLOCKS.register("compressed_cobblestone_9",
+            () -> new Block(BlockBehaviour.Properties.copy(ingot_block_guralloy.get())
+            ));
+
+    public static final RegistryObject<Block> compressed_cobblestone_8 = BLOCKS.register("compressed_cobblestone_8",
+            () -> new Block(BlockBehaviour.Properties.copy(ingot_block_guralloy.get())
+            ));
+
+    public static final RegistryObject<Block> compressed_cobblestone_7 = BLOCKS.register("compressed_cobblestone_7",
+            () -> new Block(BlockBehaviour.Properties.copy(ingot_block_guralloy.get())
+            ));
+
+    public static final RegistryObject<Block> compressed_cobblestone_6 = BLOCKS.register("compressed_cobblestone_6",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)
+            ));
+
+    public static final RegistryObject<Block> compressed_cobblestone_5 = BLOCKS.register("compressed_cobblestone_5",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)
+            ));
+
+    public static final RegistryObject<Block> compressed_cobblestone_4 = BLOCKS.register("compressed_cobblestone_4",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERITE_BLOCK)
+            ));
+
+    public static final RegistryObject<Block> compressed_cobblestone_3 = BLOCKS.register("compressed_cobblestone_3",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK)
+            ));
+
+    public static final RegistryObject<Block> compressed_cobblestone_2 = BLOCKS.register("compressed_cobblestone_2",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)
+            ));
+
+    public static final RegistryObject<Block> compressed_cobblestone = BLOCKS.register("compressed_cobblestone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE)
+            ));
 
 }

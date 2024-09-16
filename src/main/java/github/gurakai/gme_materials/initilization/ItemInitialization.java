@@ -164,7 +164,7 @@ public class ItemInitialization {
                     .rarity(Rarity.RARE)
             )));
 
-    public static final RegistryObject<Item> pulverized_invar = addToTab(ITEMS.register("pulverized_invar",
+    public static final RegistryObject<Item> amalgam_invar = addToTab(ITEMS.register("amalgam_invar",
             () -> new Item(new Item.Properties()
                     .stacksTo(64)
                     .rarity(Rarity.UNCOMMON)
@@ -353,6 +353,51 @@ public class ItemInitialization {
 
     public static final RegistryObject<BlockItem> compressed_cobblestone_singularity = addToTab(ITEMS.register("compressed_cobblestone_singularity",
             () -> new BlockItem(BlockInitialization.compressed_cobblestone_singularity.get(),
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<BlockItem> compressed_cobblestone_9 = addToTab(ITEMS.register("compressed_cobblestone_9",
+            () -> new BlockItem(BlockInitialization.compressed_cobblestone_9.get(),
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<BlockItem> compressed_cobblestone_8 = addToTab(ITEMS.register("compressed_cobblestone_8",
+            () -> new BlockItem(BlockInitialization.compressed_cobblestone_8.get(),
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<BlockItem> compressed_cobblestone_7 = addToTab(ITEMS.register("compressed_cobblestone_7",
+            () -> new BlockItem(BlockInitialization.compressed_cobblestone_7.get(),
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<BlockItem> compressed_cobblestone_6 = addToTab(ITEMS.register("compressed_cobblestone_6",
+            () -> new BlockItem(BlockInitialization.compressed_cobblestone_6.get(),
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<BlockItem> compressed_cobblestone_5 = addToTab(ITEMS.register("compressed_cobblestone_5",
+            () -> new BlockItem(BlockInitialization.compressed_cobblestone_5.get(),
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<BlockItem> compressed_cobblestone_4 = addToTab(ITEMS.register("compressed_cobblestone_4",
+            () -> new BlockItem(BlockInitialization.compressed_cobblestone_4.get(),
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<BlockItem> compressed_cobblestone_3 = addToTab(ITEMS.register("compressed_cobblestone_3",
+            () -> new BlockItem(BlockInitialization.compressed_cobblestone_3.get(),
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<BlockItem> compressed_cobblestone_2 = addToTab(ITEMS.register("compressed_cobblestone_2",
+            () -> new BlockItem(BlockInitialization.compressed_cobblestone_2.get(),
+                    new Item.Properties()
+            )));
+
+    public static final RegistryObject<BlockItem> compressed_cobblestone = addToTab(ITEMS.register("compressed_cobblestone",
+            () -> new BlockItem(BlockInitialization.compressed_cobblestone.get(),
                     new Item.Properties()
             )));
 }

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "tag": "gme_materials:amalgam_guralloy"
+    "item": "gme_materials:amalgam_guralloy"
   },
   "result": "gme_materials:nugget_guralloy",
   "experience": 0.8,

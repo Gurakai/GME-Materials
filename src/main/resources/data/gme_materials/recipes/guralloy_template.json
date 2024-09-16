@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "fff",
+    "fdf",
+    "fff"
+  ],
+  "key": {
+    "f": {
+      "item": "gme_materials:nugget_guralloy"
+    },
+    "d": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+  },
+  "result": {
+    "item": "gme_materials:guralloy_template"
+  }
+}

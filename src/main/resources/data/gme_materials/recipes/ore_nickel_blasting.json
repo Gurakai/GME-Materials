@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "tag": "gme_materials:ore_nickel"
+    "item": "gme_materials:ore_nickel"
   },
   "result": "gme_materials:ingot_nickel",
   "experience": 0.8,

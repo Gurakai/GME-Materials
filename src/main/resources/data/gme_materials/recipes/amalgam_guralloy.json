@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ECD",
+    "BAB",
+    "DCE"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "B": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "minecraft:gold_ingot"
+    },
+    "D": {
+      "item": "gme_materials:amalgam_red_silvarium"
+    },
+    "E": {
+      "item": "gme_materials:amalgam_invar"
+    }
+  },
+  "result": {
+    "item": "gme_materials:amalgam_guralloy"
+  }
+}

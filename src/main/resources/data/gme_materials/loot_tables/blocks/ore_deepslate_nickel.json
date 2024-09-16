@@ -29,7 +29,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "gme_materials:ingot_nickel",
+              "name": "gme_materials:raw_nickel",
               "functions": [
                 {
                   "function": "minecraft:apply_bonus",

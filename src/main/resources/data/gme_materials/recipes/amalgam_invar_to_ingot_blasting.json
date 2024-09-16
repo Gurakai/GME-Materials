@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
   "ingredient": {
-    "tag": "gme_materials:amalgam_invar"
+    "item": "gme_materials:amalgam_invar"
   },
   "result": "gme_materials:ingot_invar",
   "experience": 0.8,

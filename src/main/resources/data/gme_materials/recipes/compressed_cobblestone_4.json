@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "WWW",
+    "WWW"
+  ],
+  "key": {
+    "W": {
+      "item": "gme_materials:compressed_cobblestone_3"
+    }
+  },
+  "result": {
+    "item": "gme_materials:compressed_cobblestone_4"
+  }
+}
