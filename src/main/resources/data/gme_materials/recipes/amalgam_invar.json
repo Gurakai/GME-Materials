@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "gme_materials:pulverized_nickel"
+      "tag": "forge:dusts/nickel"
     },
     {
-      "item": "minecraft:iron_ingot"
+      "tag": "forge:dusts/iron"
     },
     {
-      "item": "minecraft:iron_ingot"
+      "tag": "forge:dusts/iron"
     }
   ],
   "result": {

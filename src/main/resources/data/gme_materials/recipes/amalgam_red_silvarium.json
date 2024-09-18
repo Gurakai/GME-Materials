@@ -2,16 +2,22 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "gme_materials:pulverized_silver"
+      "tag": "forge:dusts/silver"
     },
     {
-      "item": "gme_materials:pulverized_silver"
+      "tag": "forge:dusts/silver"
     },
     {
-      "item": "minecraft:copper_ingot"
+      "tag": "forge:dusts/silver"
     },
     {
-      "item": "minecraft:redstone"
+      "tag": "forge:dusts/copper"
+    },
+    {
+      "tag": "forge:dusts/copper"
+    },
+    {
+      "tag": "forge:dusts/nickel"
     },
     {
       "item": "minecraft:redstone"
@@ -25,6 +31,6 @@
   ],
   "result": {
     "item": "gme_materials:amalgam_red_silvarium",
-    "count": 2
+    "count": 4
   }
 }

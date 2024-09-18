@@ -1,0 +1,12 @@
+{
+  "values": [
+    "gme_materials:helmet_guralloy",
+    "gme_materials:helmet_padded_leather",
+    "gme_materials:chestplate_guralloy",
+    "gme_materials:chestplate_padded_leather",
+    "gme_materials:leggings_guralloy",
+    "gme_materials:leggings_padded_leather",
+    "gme_materials:boots_guralloy",
+    "gme_materials:boots_padded_leather"
+  ]
+}
