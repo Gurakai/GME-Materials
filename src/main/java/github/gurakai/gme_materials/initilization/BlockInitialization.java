@@ -48,7 +48,7 @@ public class BlockInitialization {
 
     public static final RegistryObject<Block> ingot_block_red_silvarium = BLOCKS.register("ingot_block_red_silvarium",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.COLOR_GRAY)
+                    .mapColor(MapColor.COLOR_RED)
                     .strength(6f, 13f)
                     .instrument(NoteBlockInstrument.CHIME)
                     .requiresCorrectToolForDrops()
@@ -70,6 +70,13 @@ public class BlockInitialization {
                     .strength(0.1f)
                     .instrument(NoteBlockInstrument.BASS)
                     .pushReaction(PushReaction.DESTROY)
+            ));
+
+    public static final RegistryObject<Block> ingot_block_platinum = BLOCKS.register("ingot_block_platinum",
+            () -> new Block(BlockBehaviour.Properties.copy(ingot_block_red_silvarium.get())
+                    .mapColor(MapColor.COLOR_CYAN)
+                    .requiresCorrectToolForDrops()
+                    .pushReaction(PushReaction.PUSH_ONLY)
             ));
 
     //ores

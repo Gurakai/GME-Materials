@@ -1,0 +1,16 @@
+{
+  "type": "mekanism:injecting",
+  "chemical_input": {
+    "amount": 2,
+    "chemical": "mekanism:hydrogen"
+  },
+  "item_input": {
+    "count": 1,
+    "item": "gme_materials:cernicium_amalgamate"
+  },
+  "output": {
+    "count": 1,
+    "id": "gme_materials:platinum_hydrodisulfide"
+  },
+  "per_tick_usage": true
+}

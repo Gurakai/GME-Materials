@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "gme_materials:dust_platinum"
+  },
+  "result": "gme_materials:nugget_platinum",
+  "experience": 0.7,
+  "cookingtime": 1000
+}

@@ -76,6 +76,12 @@ public class ItemInitialization {
                     .rarity(Rarity.COMMON)
             )));
 
+    public static final RegistryObject<Item> ingot_platinum = addToTab(ITEMS.register("ingot_platinum",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+                    .rarity(Rarity.RARE)
+            )));
+
     //raw ore
 
     public static final  RegistryObject<Item> raw_nickel = addToTab(ITEMS.register("raw_nickel",
@@ -120,6 +126,12 @@ public class ItemInitialization {
                     .rarity(Rarity.COMMON)
             )));
 
+    public static final RegistryObject<Item> nugget_platinum = addToTab(ITEMS.register("nugget_platinum",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+                    .rarity(Rarity.RARE)
+            )));
+
     //ingot blocks
 
     public static final RegistryObject<Item> ingot_block_guralloy = addToTab(ITEMS.register("ingot_block_guralloy",
@@ -140,17 +152,24 @@ public class ItemInitialization {
             () -> new BlockItem(BlockInitialization.ingot_block_nickel.get(),
                     new Item.Properties()
                             .stacksTo(64)
-                            .rarity(Rarity.RARE)
+                            .rarity(Rarity.COMMON)
             )));
 
     public static final RegistryObject<Item> ingot_block_red_silvarium = addToTab(ITEMS.register("ingot_block_red_silvarium",
             () -> new BlockItem(BlockInitialization.ingot_block_red_silvarium.get(),
                     new Item.Properties()
                             .stacksTo(64)
-                            .rarity(Rarity.RARE)
+                            .rarity(Rarity.UNCOMMON)
             )));
     public static final RegistryObject<Item> ingot_block_silver = addToTab(ITEMS.register("ingot_block_silver",
             () -> new BlockItem(BlockInitialization.ingot_block_silver.get(),
+                    new Item.Properties()
+                            .stacksTo(64)
+                            .rarity(Rarity.COMMON)
+            )));
+
+    public static final RegistryObject<Item> ingot_block_platinum = addToTab(ITEMS.register("ingot_block_platinum",
+            () -> new BlockItem(BlockInitialization.ingot_block_platinum.get(),
                     new Item.Properties()
                             .stacksTo(64)
                             .rarity(Rarity.RARE)
@@ -188,6 +207,24 @@ public class ItemInitialization {
                     .rarity(Rarity.COMMON)
             )));
 
+    public static final RegistryObject<Item> cernicium_amalgamate = addToTab(ITEMS.register("cernicium_amalgamate",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+                    .rarity(Rarity.UNCOMMON)
+            )));
+
+    public static final RegistryObject<Item> platinum_hydrodisulfide = addToTab(ITEMS.register("platinum_hydrodisulfide",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+                    .rarity(Rarity.RARE)
+            )));
+
+    public static final RegistryObject<Item> dust_platinum = addToTab(ITEMS.register("dust_platinum",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+                    .rarity(Rarity.RARE)
+            )));
+
     //weapons
 
     public static final RegistryObject<SwordItem> sword_guralloy = addToTab(ITEMS.register("sword_guralloy",
@@ -210,7 +247,7 @@ public class ItemInitialization {
                                     .effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 40, 3),1f)
                                     .effect(() -> new MobEffectInstance(MobEffects.ABSORPTION, 1200, 1), 1f)
                                     .build())
-                            .rarity(Rarity.EPIC)
+                            .rarity(Rarity.RARE)
                             .durability(15)
                             .setNoRepair()
             )));
@@ -223,6 +260,7 @@ public class ItemInitialization {
                     1,
                     -2.4f,
                     new Item.Properties()
+                            .rarity(Rarity.RARE)
             )));
 
     public static final RegistryObject<AxeItem> axe_guralloy = addToTab(ITEMS.register("axe_guralloy",
@@ -231,6 +269,7 @@ public class ItemInitialization {
                     5,
                     -2.6f,
                     new Item.Properties()
+                            .rarity(Rarity.RARE)
             )));
 
     public static final RegistryObject<ShovelItem> shovel_guralloy = addToTab(ITEMS.register("shovel_guralloy",
@@ -239,6 +278,7 @@ public class ItemInitialization {
                     1.5f,
                     -2.6f,
                     new Item.Properties()
+                            .rarity(Rarity.RARE)
             )));
 
     public static final RegistryObject<HoeItem> hoe_guralloy = addToTab(ITEMS.register("hoe_guralloy",
@@ -247,6 +287,7 @@ public class ItemInitialization {
                     -4,
                     0.4f,
                     new Item.Properties()
+                            .rarity(Rarity.RARE)
             )));
 
     public static final RegistryObject<FlintAndSteelItem> primitive_fire_starter = addToTab(ITEMS.register("primitive_fire_starter",
@@ -257,6 +298,7 @@ public class ItemInitialization {
     public static final RegistryObject<FlintAndSteelItem> advanced_fire_starter = addToTab(ITEMS.register("advanced_fire_starter",
             () -> new FlintAndSteelItem(new Item.Properties()
                     .durability(2560)
+                    .rarity(Rarity.UNCOMMON)
             )));
 
     //armor
@@ -264,6 +306,7 @@ public class ItemInitialization {
     public static final RegistryObject<Item> guralloy_template = addToTab(ITEMS.register("guralloy_template",
             () -> new Item(new Item.Properties()
                     .stacksTo(1)
+                    .rarity(Rarity.RARE)
             )));
 
     public static final RegistryObject<Item> wool_padding = addToTab(ITEMS.register("wool_padding",
@@ -276,6 +319,7 @@ public class ItemInitialization {
                     ArmorMaterialInitialization.guralloy,
                     ArmorItem.Type.HELMET,
                     new Item.Properties()
+                            .rarity(Rarity.RARE)
             )));
 
     public static final RegistryObject<ArmorItem> chestplate_guralloy = addToTab(ITEMS.register("chestplate_guralloy",
@@ -283,6 +327,7 @@ public class ItemInitialization {
                     ArmorMaterialInitialization.guralloy,
                     ArmorItem.Type.CHESTPLATE,
                     new Item.Properties()
+                            .rarity(Rarity.RARE)
             )));
 
     public static final RegistryObject<ArmorItem> leggings_guralloy = addToTab(ITEMS.register("leggings_guralloy",
@@ -290,6 +335,7 @@ public class ItemInitialization {
                     ArmorMaterialInitialization.guralloy,
                     ArmorItem.Type.LEGGINGS,
                     new Item.Properties()
+                            .rarity(Rarity.RARE)
             )));
 
     public static final RegistryObject<ArmorItem> boots_guralloy = addToTab(ITEMS.register("boots_guralloy",
@@ -297,6 +343,7 @@ public class ItemInitialization {
                     ArmorMaterialInitialization.guralloy,
                     ArmorItem.Type.BOOTS,
                     new Item.Properties()
+                            .rarity(Rarity.RARE)
             )));
 
     public static final RegistryObject<ArmorItem> helmet_padded_leather = addToTab(ITEMS.register("helmet_padded_leather",
@@ -354,36 +401,43 @@ public class ItemInitialization {
     public static final RegistryObject<BlockItem> compressed_cobblestone_singularity = addToTab(ITEMS.register("compressed_cobblestone_singularity",
             () -> new BlockItem(BlockInitialization.compressed_cobblestone_singularity.get(),
                     new Item.Properties()
+                            .rarity(Rarity.EPIC)
             )));
 
     public static final RegistryObject<BlockItem> compressed_cobblestone_9 = addToTab(ITEMS.register("compressed_cobblestone_9",
             () -> new BlockItem(BlockInitialization.compressed_cobblestone_9.get(),
                     new Item.Properties()
+                            .rarity(Rarity.RARE)
             )));
 
     public static final RegistryObject<BlockItem> compressed_cobblestone_8 = addToTab(ITEMS.register("compressed_cobblestone_8",
             () -> new BlockItem(BlockInitialization.compressed_cobblestone_8.get(),
                     new Item.Properties()
+                            .rarity(Rarity.RARE)
             )));
 
     public static final RegistryObject<BlockItem> compressed_cobblestone_7 = addToTab(ITEMS.register("compressed_cobblestone_7",
             () -> new BlockItem(BlockInitialization.compressed_cobblestone_7.get(),
                     new Item.Properties()
+                            .rarity(Rarity.RARE)
             )));
 
     public static final RegistryObject<BlockItem> compressed_cobblestone_6 = addToTab(ITEMS.register("compressed_cobblestone_6",
             () -> new BlockItem(BlockInitialization.compressed_cobblestone_6.get(),
                     new Item.Properties()
+                            .rarity(Rarity.UNCOMMON)
             )));
 
     public static final RegistryObject<BlockItem> compressed_cobblestone_5 = addToTab(ITEMS.register("compressed_cobblestone_5",
             () -> new BlockItem(BlockInitialization.compressed_cobblestone_5.get(),
                     new Item.Properties()
+                            .rarity(Rarity.UNCOMMON)
             )));
 
     public static final RegistryObject<BlockItem> compressed_cobblestone_4 = addToTab(ITEMS.register("compressed_cobblestone_4",
             () -> new BlockItem(BlockInitialization.compressed_cobblestone_4.get(),
                     new Item.Properties()
+                            .rarity(Rarity.UNCOMMON)
             )));
 
     public static final RegistryObject<BlockItem> compressed_cobblestone_3 = addToTab(ITEMS.register("compressed_cobblestone_3",

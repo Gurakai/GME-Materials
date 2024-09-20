@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BDC",
+    "DAD",
+    "CDB"
+  ],
+  "key": {
+    "A": {
+      "item": "forge:raw_materials/osmium"
+    },
+    "B": {
+      "tag": "forge:raw_materials/nickel"
+    },
+    "C": {
+      "tag": "forge:raw_materials/copper"
+    },
+    "D": {
+      "tag": "forge:dusts/sulfur"
+    },
+  },
+  "result": {
+    "item": "gme_materials:cernicium_amalgamate"
+  }
+}

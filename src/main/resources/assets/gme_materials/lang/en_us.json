@@ -6,12 +6,14 @@
   "item.gme_materials.ingot_nickel": "Nickel Ingot",
   "item.gme_materials.ingot_silver": "Silver Ingot",
   "item.gme_materials.ingot_red_silvarium": "Red Silvarium Ingot",
+  "item.gme_materials.ingot_platinum": "Platinum Ingot",
 
   "item.gme_materials.nugget_guralloy": "Guralloy Nugget",
   "item.gme_materials.nugget_invar": "Invar Nugget",
   "item.gme_materials.nugget_nickel": "Nickel Nugget",
   "item.gme_materials.nugget_silver": "Silver Nugget",
   "item.gme_materials.nugget_red_silvarium": "Red Silvarium Nugget",
+  "item.gme_materials.nugget_platinum": "Platinum Nugget",
 
   "item.gme_materials.raw_nickel": "Raw Nickel",
   "item.gme_materials.raw_silver": "Raw Silver",
@@ -21,6 +23,9 @@
   "item.gme_materials.pulverized_silver": "Pulverized Silver",
   "item.gme_materials.amalgam_guralloy": "Amalgam of Guralloy",
   "item.gme_materials.amalgam_red_silvarium": "Amalgam of Red Silvarium",
+  "item.gme_materials.dust_platinum": "Platinum Dust",
+  "item.gme_materials.platinum_hydrodisulfide": "Amalgam of Platinum Hydro-DiSulfide",
+  "item.gme_materials.cernicium_amalgam": "Cernicium Amalgam",
 
   "block.gme_materials.ingot_block_guralloy": "Block of Guralloy",
   "block.gme_materials.ingot_block_invar": "Block of Invar",
@@ -28,6 +33,7 @@
   "block.gme_materials.ingot_block_red_silvarium": "Block of Red Silvarium",
   "block.gme_materials.ingot_block_silver": "Block of silver",
   "block.gme_materials.block_the_rarest_steak": "The Rarest Steak Block",
+  "block.gme_materials.ingot_block_platinum": "Block of Platinum",
   "block.gme_materials.ore_nickel": "Nickel Ore",
   "block.gme_materials.ore_deepslate_nickel": "Deepslate Nickel Ore",
   "block.gme_materials.ore_silver": "Silver Ore",
