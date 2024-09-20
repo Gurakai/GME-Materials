@@ -7,19 +7,19 @@
   ],
   "key": {
     "A": {
-      "item": "forge:raw_materials/osmium"
+      "tag": "forge:dusts/osmium"
     },
     "B": {
-      "tag": "forge:raw_materials/nickel"
+      "tag": "forge:dusts/nickel"
     },
     "C": {
-      "tag": "forge:raw_materials/copper"
+      "tag": "forge:dusts/copper"
     },
     "D": {
       "tag": "forge:dusts/sulfur"
-    },
+    }
   },
   "result": {
-    "item": "gme_materials:cernicium_amalgamate"
+    "item": "gme_materials:amalgam_cernicium"
   }
 }

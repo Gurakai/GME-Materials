@@ -195,6 +195,12 @@ public class ItemInitialization {
                     .rarity(Rarity.COMMON)
             )));
 
+    public static final RegistryObject<Item> amalgam_cernicium = addToTab(ITEMS.register("amalgam_cernicium",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+                    .rarity(Rarity.UNCOMMON)
+            )));
+
     public static final RegistryObject<Item> amalgam_red_silvarium = addToTab(ITEMS.register("amalgam_red_silvarium",
             () -> new Item(new Item.Properties()
                     .stacksTo(64)
@@ -205,12 +211,6 @@ public class ItemInitialization {
             () -> new Item(new Item.Properties()
                     .stacksTo(64)
                     .rarity(Rarity.COMMON)
-            )));
-
-    public static final RegistryObject<Item> cernicium_amalgamate = addToTab(ITEMS.register("cernicium_amalgamate",
-            () -> new Item(new Item.Properties()
-                    .stacksTo(64)
-                    .rarity(Rarity.UNCOMMON)
             )));
 
     public static final RegistryObject<Item> platinum_hydrodisulfide = addToTab(ITEMS.register("platinum_hydrodisulfide",

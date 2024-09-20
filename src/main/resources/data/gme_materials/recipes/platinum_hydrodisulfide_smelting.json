@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "gme_materials:amalgam_cernicium"
+  },
+  "result": "gme_materials:platinum_hydrodisulfide",
+  "experience": 1.0,
+  "cookingtime": 1600
+}

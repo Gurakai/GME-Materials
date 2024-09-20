@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "gme_materials:platinum_hydrodisulfide"
+  },
+  "result": "gme_materials:dust_platinum",
+  "experience": 1.5,
+  "cookingtime": 1000
+}
