@@ -7,6 +7,8 @@
   "item.gme_materials.ingot_silver": "Silver Ingot",
   "item.gme_materials.ingot_red_silvarium": "Red Silvarium Ingot",
   "item.gme_materials.ingot_platinum": "Platinum Ingot",
+  "item.gme_materials.ingot_luminium": "Shining Luminium Ingot",
+  "item.gme_materials.ingot_resonant_platinarium": "Resonant Platinarium Ingot",
 
   "item.gme_materials.nugget_guralloy": "Guralloy Nugget",
   "item.gme_materials.nugget_invar": "Invar Nugget",
@@ -14,6 +16,8 @@
   "item.gme_materials.nugget_silver": "Silver Nugget",
   "item.gme_materials.nugget_red_silvarium": "Red Silvarium Nugget",
   "item.gme_materials.nugget_platinum": "Platinum Nugget",
+  "item.gme_materials.nugget_luminium": "Shining Luminium Nugget",
+  "item.gme_materials.nugget_resonant_platinarium": "Resonant Platinarium Nugget",
 
   "item.gme_materials.raw_nickel": "Raw Nickel",
   "item.gme_materials.raw_silver": "Raw Silver",
@@ -26,6 +30,9 @@
   "item.gme_materials.amalgam_cernicium": "Amalgam of Cernicium",
   "item.gme_materials.dust_platinum": "Platinum Dust",
   "item.gme_materials.platinum_hydrodisulfide": "Amalgam of Platinum Hydro-DiSulfide",
+  "item.gme_materials.amalgam_luminium": "Amalgam of Shining Luminium",
+  "item.gme_materials.amalgam_resonant_platinarium": "Amalgam of Resonant Platinarium",
+  "item.gme_materials.amalgam_glowvarium": "Amalgam of Glowvarium",
 
   "block.gme_materials.ingot_block_guralloy": "Block of Guralloy",
   "block.gme_materials.ingot_block_invar": "Block of Invar",

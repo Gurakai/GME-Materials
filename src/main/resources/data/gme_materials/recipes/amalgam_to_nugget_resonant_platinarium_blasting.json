@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "gme_materials:amalgam_resonant_platinarium"
+  },
+  "result": "gme_materials:nugget_resonant_platinarium",
+  "experience": 1.0,
+  "cookingtime": 2400
+}

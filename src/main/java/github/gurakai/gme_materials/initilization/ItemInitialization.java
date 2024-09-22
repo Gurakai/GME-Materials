@@ -82,6 +82,18 @@ public class ItemInitialization {
                     .rarity(Rarity.RARE)
             )));
 
+    public static final RegistryObject<Item> ingot_luminium = addToTab(ITEMS.register("ingot_luminium",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+                    .rarity(Rarity.EPIC)
+            )));
+
+    public static final RegistryObject<Item> ingot_resonant_platinarium = addToTab(ITEMS.register("ingot_resonant_platinarium",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+                    .rarity(Rarity.EPIC)
+            )));
+
     //raw ore
 
     public static final  RegistryObject<Item> raw_nickel = addToTab(ITEMS.register("raw_nickel",
@@ -130,6 +142,18 @@ public class ItemInitialization {
             () -> new Item(new Item.Properties()
                     .stacksTo(64)
                     .rarity(Rarity.RARE)
+            )));
+
+    public static final RegistryObject<Item> nugget_luminium = addToTab(ITEMS.register("nugget_luminium",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+                    .rarity(Rarity.EPIC)
+            )));
+
+    public static final RegistryObject<Item> nugget_resonant_platinarium = addToTab(ITEMS.register("nugget_resonant_platinarium",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+                    .rarity(Rarity.EPIC)
             )));
 
     //ingot blocks
@@ -220,6 +244,24 @@ public class ItemInitialization {
             )));
 
     public static final RegistryObject<Item> dust_platinum = addToTab(ITEMS.register("dust_platinum",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+                    .rarity(Rarity.RARE)
+            )));
+
+    public static final RegistryObject<Item> amalgam_luminium = addToTab(ITEMS.register("amalgam_luminium",
+                    () -> new Item(new Item.Properties()
+                            .stacksTo(64)
+                            .rarity(Rarity.EPIC)
+                    )));
+
+    public static final RegistryObject<Item> amalgam_resonant_platinarium = addToTab(ITEMS.register("amalgam_resonant_platinarium",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(64)
+                    .rarity(Rarity.EPIC)
+            )));
+
+    public static final RegistryObject<Item> amalgam_glowvarium = addToTab(ITEMS.register("amalgam_glowvarium",
             () -> new Item(new Item.Properties()
                     .stacksTo(64)
                     .rarity(Rarity.RARE)

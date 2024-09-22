@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CAC",
+    "BCB",
+    "CAC"
+  ],
+  "key": {
+    "A": {
+      "item": "gme_materials:amalgam_guralloy"
+    },
+    "B": {
+      "tag": "forge:dusts/platinum"
+    },
+    "C": {
+      "tag": "gme_materials:amalgam_glowvarium"
+    }
+  },
+  "result": {
+    "item": "gme_materials:amalgam_luminium"
+  }
+}
