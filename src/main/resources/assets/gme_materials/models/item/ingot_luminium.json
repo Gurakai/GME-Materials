@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "gme_materials:item/nugget_lumium"
+    "layer0": "gme_materials:item/ingot_luminium"
   }
 }

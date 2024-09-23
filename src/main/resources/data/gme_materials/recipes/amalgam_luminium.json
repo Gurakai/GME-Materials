@@ -13,7 +13,7 @@
       "tag": "forge:dusts/platinum"
     },
     "C": {
-      "tag": "gme_materials:amalgam_glowvarium"
+      "item": "gme_materials:amalgam_glowvarium"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "W": {
-      "item": "gme_materials:nugget_lumium"
+      "item": "gme_materials:nugget_luminium"
     }
   },
   "result": {
-    "item": "gme_materials:ingot_lumium"
+    "item": "gme_materials:ingot_luminium"
   }
 }
