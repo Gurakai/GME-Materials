@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gme_materials:ingot_red_silvarium"
+    }
+  ],
+  "result": {
+    "item": "gme_materials:nugget_red_silvarium",
+    "count": 9
+  }
+}

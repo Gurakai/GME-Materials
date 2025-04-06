@@ -1,18 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " W ",
-    "WLW",
-    " W "
-  ],
-  "key": {
-    "W": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "gme_materials:wool_padding"
     },
-    "L": {
+    {
       "item": "minecraft:leather_helmet"
     }
-  },
+  ],
   "result": {
     "item": "gme_materials:helmet_padded_leather"
   }

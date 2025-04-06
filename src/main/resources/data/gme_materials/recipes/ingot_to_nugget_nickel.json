@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gme_materials:ingot_nickel"
+    }
+  ],
+  "result": {
+    "item": "gme_materials:nugget_nickel",
+    "count": 9
+  }
+}

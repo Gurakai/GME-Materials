@@ -1,0 +1,11 @@
+{
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "gme_materials:bar_brawl",
+        "volume": 1,
+        "stream": true
+      }
+    ]
+  }
+}

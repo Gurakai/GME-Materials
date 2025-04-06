@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ECD",
+    "BAB",
+    "BBB"
+  ],
+  "key": {
+    "A": {
+      "tag": "forge:wool"
+    },
+    "B": {
+      "item": "minecraft:blue_concrete"
+    },
+    "C": {
+      "tag": "forge:string"
+    },
+    "D": {
+      "item": "gme_materials:advanced_fire_starter_assembly"
+    },
+    "E": {
+      "item": "minecraft:blue_concrete"
+    }
+  },
+  "result": {
+    "item": "gme_materials:lighter"
+  }
+}

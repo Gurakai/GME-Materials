@@ -1,18 +1,16 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " W ",
-    "WLW",
-    " W "
-  ],
-  "key": {
-    "W": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "gme_materials:wool_padding"
     },
-    "L": {
+    {
+      "item": "gme_materials:wool_padding"
+    },
+    {
       "item": "minecraft:leather_leggings"
     }
-  },
+  ],
   "result": {
     "item": "gme_materials:leggings_padded_leather"
   }

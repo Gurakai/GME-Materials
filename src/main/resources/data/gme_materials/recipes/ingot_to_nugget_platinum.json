@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gme_materials:ingot_platinum"
+    }
+  ],
+  "result": {
+    "item": "gme_materials:nugget_platinum",
+    "count": 9
+  }
+}

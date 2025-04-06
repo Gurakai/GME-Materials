@@ -1,6 +1,9 @@
 {
   "item.gme_materials.guralloy_apple": "Guralloy Apple",
 
+  "item.gme_materials.music_disc_bar_brawl": "Bar Brawl Music Disc",
+  "item.gme_materials.music_disc_bar_brawl.desc": "Bryan Tech - Bar Brawl (CC0)",
+
   "item.gme_materials.ingot_guralloy": "Guralloy Ingot",
   "item.gme_materials.ingot_invar": "Invar Ingot",
   "item.gme_materials.ingot_nickel": "Nickel Ingot",

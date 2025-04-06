@@ -332,9 +332,9 @@ public class ItemInitialization {
                             .rarity(Rarity.RARE)
             )));
 
-    public static final RegistryObject<FlintAndSteelItem> primitive_fire_starter = addToTab(ITEMS.register("primitive_fire_starter",
-            () -> new FlintAndSteelItem(new Item.Properties()
-                    .durability(1)
+    public static final RegistryObject<Item> advanced_fire_starter_assembly = addToTab(ITEMS.register("advanced_fire_starter_assembly",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(1)
             )));
 
     public static final RegistryObject<FlintAndSteelItem> advanced_fire_starter = addToTab(ITEMS.register("advanced_fire_starter",
@@ -495,5 +495,14 @@ public class ItemInitialization {
     public static final RegistryObject<BlockItem> compressed_cobblestone = addToTab(ITEMS.register("compressed_cobblestone",
             () -> new BlockItem(BlockInitialization.compressed_cobblestone.get(),
                     new Item.Properties()
+            )));
+
+    //music discs
+
+    public static final RegistryObject<Item> music_disc_bar_brawl = addToTab(ITEMS.register("music_disc_bar_brawl",
+            () -> new RecordItem(6, SoundEventInitialization.bar_brawl,
+                    new Item.Properties()
+                            .stacksTo(1),
+                            2440
             )));
 }

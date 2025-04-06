@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gme_materials:ingot_block_guralloy"
+    }
+  ],
+  "result": {
+    "item": "gme_materials:ingot_guralloy",
+    "count": 9
+  }
+}
